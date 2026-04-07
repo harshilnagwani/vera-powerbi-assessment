@@ -92,7 +92,8 @@ vera-powerbi-assessment/
 ## Dashboards Built
 
 ### Task 1 — User Intelligence
-**Dataset:** Course completion & learner engagement platform data  
+**Dataset:**Student Course Completion Prediction Dataset 
+**Source:**[ Internal learning platform export](https://www.kaggle.com/datasets/nisargpatel344/student-course-completion-prediction-dataset)
 **KPIs:** Total Enrollments · Completion Rate % · Avg Score · Avg Engagement · Active Users
 
 **Key Findings:**
@@ -103,7 +104,8 @@ vera-powerbi-assessment/
 ---
 
 ### Task 2 — Sales Intelligence
-**Dataset:** E-commerce retail transactions (Superstore, ~10,000 rows)  
+**Dataset:** Superstore Sales Dataset
+**Source:** [E-commerce retail transactions](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) 
 **KPIs:** Total Revenue · Profit Margin % · YTD Revenue · MoM Growth % · Top Products
 
 **Key Findings:**
@@ -114,7 +116,8 @@ vera-powerbi-assessment/
 ---
 
 ### Task 3 — Operations Intelligence
-**Dataset:** 25,000 delivery records across 9 logistics partners (India)  
+**Dataset:** Delivery _Logistics...dataset
+**Source:** [Multi-partner delivery logistics platform (India)](https://www.kaggle.com/datasets/ayeshaseherr/delivery-logistics-dataset)  
 **KPIs:** On Time Rate % · Delay Rate % · Avg Delay Hours · Partner Rating · Total Cost
 
 **Key Findings:**
@@ -125,7 +128,8 @@ vera-powerbi-assessment/
 ---
 
 ### Task 4 — HR Intelligence
-**Dataset:** 311-employee HR management system export (HRDataset_v14)  
+**Dataset:** Human Resources Data Set
+**Source:** [HR management system export (fictional US company)](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
 **KPIs:** Attrition Rate % · Active Employees · Avg Salary · Performance Distribution
 
 **Key Findings:**
