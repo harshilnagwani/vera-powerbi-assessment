@@ -246,7 +246,25 @@ All roles tested via **Modeling → View as Roles** in Power BI Desktop.
 5. **Python in Power BI** — Used matplotlib heatmap to visualise a Region × Vehicle-Type delay matrix not achievable with native visuals alone
 
 ---
+## Screenshots
+```markdown
+![Home Page](screenshots/home_page.jpg)
+![User Intelligence](screenshots/user_intelligence.jpg)
+![User Intelligence](screenshots/user_tooltip.jpg)
+![Sales Intelligence](screenshots/sales_intelligence.jpg)
+![Sales Intelligence](screenshots/product_detail.jpg)
+![Operations Intelligence](screenshots/operations_intelligence.jpg)
+![Operations Intelligence](screenshots/operations_tooltip.jpg)
+![HR Intelligence](screenshots/hr_intelligence1.jpg)
+![HR Intelligence](screenshots/hr_intelligence2.jpg)
+![HR Intelligence](screenshots/employee_detail.jpg)
+![Published Report](screenshots/published_service.png)
 
+
+
+```
+
+---
 ## Contact
 
 **Harshil Nagwani**  
