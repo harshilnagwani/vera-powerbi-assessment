@@ -1,8 +1,7 @@
 # Raw Data
 
-Place your original, unmodified source datasets here before running scripts.
 
-## Expected Files
+## Files
 
 | File | Task | Rows | Notes |
 |------|------|------|-------|
