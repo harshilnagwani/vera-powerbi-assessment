@@ -1,25 +1,4 @@
 #!/usr/bin/env python3
-"""
-clean_hr_dataset.py
--------------------
-Engineers calculated columns for the HR dataset (HRDataset_v14.csv)
-before loading into Power BI.
-
-Columns Added:
-    - Status              : "Active" or "Terminated"
-    - Attrition_Flag      : 1 = Terminated, 0 = Active
-    - PerformanceScore_Num: Numeric mapping (Exceeds=4, etc.)
-    - Tenure_Years        : Years of service
-    - Age                 : Age vs 2024-01-01
-    - Hire_Year           : Year of DateofHire
-    - Hire_Month          : YYYY-MM format
-
-Usage:
-    python scripts/clean_hr_dataset.py
-
-Output:
-    data/processed/HR_Clean.csv
-"""
 
 import pandas as pd
 import os
