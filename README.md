@@ -56,7 +56,7 @@ vera-powerbi-assessment/
 ├── scripts/
 │   ├── fix_operations_timestamps.py   ← Fixes corrupted timestamp columns
 │   ├── clean_hr_dataset.py            ← Engineers HR calculated columns
-│   └── generate_readme.py             ← Generates README locally
+│   
 │
 ├── docs/
 │   ├── architecture.md                ← Data model & relationship design
@@ -70,7 +70,7 @@ vera-powerbi-assessment/
 │       └── task4_hr_intelligence.md
 │
 └── screenshots/
-    └── README.md                      ← Screenshot placement guide
+    └── README.md                      
 ```
 
 ---
@@ -244,13 +244,6 @@ All roles tested via **Modeling → View as Roles** in Power BI Desktop.
 3. **Continuous vs Binary Metrics** — Engineered `delay_hours` (continuous) alongside the binary flag to enable average delay analysis, not just count-based delay tracking
 4. **RLS Architecture** — Static roles that mirror an org hierarchy, verified with View as Roles before publishing
 5. **Python in Power BI** — Used matplotlib heatmap to visualise a Region × Vehicle-Type delay matrix not achievable with native visuals alone
-
----
-
-## Screenshots
-
-> Add screenshots to the `screenshots/` folder after building the dashboard.
-> See [`screenshots/README.md`](screenshots/README.md) for the full list of recommended screenshots.
 
 ---
 
