@@ -1,23 +1,5 @@
 #!/usr/bin/env python3
-"""
-fix_operations_timestamps.py
-----------------------------
-Fixes corrupted Unix timestamp strings in Delivery_Logistics dataset.
 
-Problem:
-    delivery_time_hours and expected_time_hours were stored as corrupted
-    Unix timestamp strings like: "1970-01-01 00:00:00.000000008"
-    The actual integer hour values are encoded in the nanosecond digits.
-
-Solution:
-    Extract the last numeric digits of each string and cast to integer.
-
-Usage:
-    python scripts/fix_operations_timestamps.py
-
-Output:
-    data/processed/Delivery_Logistics_Clean.csv
-"""
 
 import pandas as pd
 import numpy as np
