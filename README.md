@@ -133,6 +133,9 @@ vera-powerbi-assessment/
 - Production dept: **39.71%** attrition with lowest avg salary ($59,954)
 - Top 3 exit reasons account for **43% of all terminations** — all preventable
 
+
+**Published Report:**
+https://app.powerbi.com/groups/me/reports/f99559a6-49dd-4226-95fd-5be97ff3ab55/dc9efbb841c9cf1cc9ff?experience=power-bi
 ---
 
 ## Setup & Run Instructions
