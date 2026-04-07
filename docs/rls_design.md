@@ -30,36 +30,4 @@ ensuring each manager sees only data relevant to their scope.
 [region] = "central"
 ```
 
-## Testing Checklist
-
-Each role was tested via **Modeling → View as Roles** in Power BI Desktop.
-
-For each role, verify:
-- [ ] KPI cards show only scoped data
-- [ ] Bar charts filter to the role scope
-- [ ] Slicers only show values within scope
-- [ ] Drill-through pages inherit the RLS filter
-- [ ] Total counts match manual filter on full dataset
-
-## Extending to Dynamic RLS
-
-To upgrade from static to dynamic RLS, add a `UserMapping` table:
-
-```
-UserMapping
------------
-UserEmail   (Text) | Department (Text) | Region (Text)
-```
-
-Then replace static filters with:
-
-```dax
--- Dynamic HR role
-[Department] = LOOKUPVALUE(
-    UserMapping[Department],
-    UserMapping[UserEmail],
-    USERPRINCIPALNAME()
-)
-```
-
-This requires Azure AD user provisioning in Power BI Service.
+g in Power BI Service.
