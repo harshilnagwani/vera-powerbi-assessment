@@ -1,0 +1,37 @@
+# Power BI
+*.pbix
+*.pbit
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Data files (large — store via Git LFS or link externally)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/README.md
+!data/processed/README.md
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter
+*.ipynb
+
+# Temp
+*.tmp
+*.log
