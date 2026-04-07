@@ -247,7 +247,7 @@ All roles tested via **Modeling → View as Roles** in Power BI Desktop.
 
 ---
 ## Screenshots
-```markdown
+
 ![Home Page](screenshots/home_page.jpg)
 ![User Intelligence](screenshots/user_intelligence.jpg)
 ![User Intelligence](screenshots/user_tooltip.jpg)
@@ -262,7 +262,7 @@ All roles tested via **Modeling → View as Roles** in Power BI Desktop.
 
 
 
-```
+
 
 ---
 ## Contact
